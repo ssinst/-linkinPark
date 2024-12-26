@@ -1,0 +1,217 @@
+/* Общие стили */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: 'Roboto', sans-serif;
+background-color: #111; /* Тёмный фон */
+color: #d3d3d3; /* Серый цвет текста */
+line-height: 1.6;
+padding: 0;
+}
+
+
+.container {
+width: 80%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+
+header {
+background-color: #1a1a1a;
+color: #fff;
+padding: 20px 0;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+header h1 {
+font-size: 3em;
+text-align: center;
+}
+
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+padding: 10px 0;
+}
+
+
+nav ul li {
+margin: 0 20px;
+}
+
+
+nav ul li a {
+text-decoration: none;
+color: #d3d3d3; 
+font-weight: 500;
+font-size: 1.2em;
+transition: all 0.3s ease;
+}
+
+
+nav ul li a:hover {
+color: #fff; 
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+transform: scale(1.1);
+}
+
+
+.hero {
+background-color: #222;
+color: #d3d3d3;
+padding: 50px 0;
+}
+
+
+.hero h2 {
+font-size: 2.5em;
+margin-bottom: 20px;
+text-align: center;
+}
+
+
+.hero p {
+font-size: 1.1em;
+line-height: 1.7;
+text-align: center;
+}
+
+
+.section {
+background-color: #1f1f1f;
+padding: 50px 0;
+color: #d3d3d3;
+}
+
+
+.albums {
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
+}
+
+
+.album {
+background-color: #333;
+padding: 20px;
+border-radius: 8px;
+text-align: center;
+width: 30%;
+transition: all 0.3s ease;
+}
+
+
+.album img {
+width: 100%;
+border-radius: 8px;
+transition: all 0.3s ease;
+}
+
+
+.album h3 {
+font-size: 1.8em;
+margin-top: 20px;
+color: #fff;
+}
+
+
+.album p {
+font-size: 1em;
+margin-top: 10px;
+color: #ccc;
+}
+
+
+.album:hover {
+transform: translateY(-10px);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.album:hover img {
+transform: scale(1.05);
+}
+
+
+.songs {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 30px;
+}
+
+
+.song {
+background-color: #333;
+padding: 20px;
+border-radius: 8px;
+width: 30%;
+margin-bottom: 30px;
+text-align: center;
+transition: all 0.3s ease;
+}
+
+
+.song h3 {
+font-size: 1.8em;
+color: #fff;
+margin-top: 20px;
+}
+
+
+.song p {
+color: #ccc;
+margin-top: 10px;
+}
+
+
+.song:hover {
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.videos iframe {
+margin: 20px;
+border-radius: 8px;
+}
+
+
+.videos {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+
+footer {
+background-color: #1a1a1a;
+color: #d3d3d3;
+padding: 20px 0;
+text-align: center;
+}
+
+
+footer p {
+font-size: 1em;
+}
+
+footer a {
+color: #d3d3d3;
+text-decoration: none;
+}
+
+
+footer a:hover {
+color: #fff;
+text-decoration: underline;
+}
